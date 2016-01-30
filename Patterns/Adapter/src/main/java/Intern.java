@@ -6,7 +6,7 @@ public class Intern {
         System.out.println("Breakfast made by "+this.getClass().getName());
     }
     public void makeDinner(){
-        System.out.println("Dinner made by "+this.getClass().getName());
+        System.out.println("My Dinner made by "+this.getClass().getName());
     }
     public void makeSupper(){
         System.out.println("Supper made by "+this.getClass().getName());
