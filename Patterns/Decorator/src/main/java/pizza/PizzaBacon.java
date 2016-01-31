@@ -10,7 +10,7 @@ public class PizzaBacon extends PizzaDecorator {
 
     @Override
     public int getPrice() {
-        return super.getPrice()+17;
+        return component.getPrice()+17;
     }
 
     @Override

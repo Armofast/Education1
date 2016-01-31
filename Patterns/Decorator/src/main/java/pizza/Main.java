@@ -6,6 +6,7 @@ package pizza;
 public class Main {
     public static void main(String[] args) {
         PizzaDecorator pizzaDecorator=new PizzaBacon(new PizzaCheese(new Pizza()));
-        System.out.println(pizzaDecorator.getPrice()+"end");
+        System.out.println(pizzaDecorator.getPrice());
+        pizzaDecorator.getDescription();
     }
 }
