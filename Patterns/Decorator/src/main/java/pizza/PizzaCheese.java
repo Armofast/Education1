@@ -6,6 +6,7 @@ package pizza;
 public class PizzaCheese extends PizzaDecorator {
     public PizzaCheese(PizzaInterface component) {
         super(component);
+        System.out.println("PizzaCheese Constructor");
     }
 
     @Override
